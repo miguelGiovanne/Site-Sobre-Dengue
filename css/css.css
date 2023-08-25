@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Kaisei+Decol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body {
+    font-family: 'Inter';
+    background-size: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: url(https://chat.google.com/u/0/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AOo0EEXGNS6wEDpREGeiiAP6AUwDST8kYvPGmXq02YAH8zu7TPbRvgX88Sozspn5WhKHeWXMnA3PlYr3acw58PB1eLyMYwd88DC%2BRLk4EL7DHPcEoG6VM48GRiqJDuUg5HFdlJn4t5khcIIwupuMx2As7aWxznLh8poAfQLKfH0p7idvAdA3j8pAcOebcuhg2HBjaS9a%2BtS4HbICOHHbf8bvzuWBnCUiaGIxYhVCDjIevrhojJFbJNzf%2FcBFANpA%2B563%2ByAgnL0LV2Q6U8%2BCLtypHPtLBuamNYSlS7WY2o6ILa3oNPAauup%2BCZblqpYKek0RxNXfx9GFCSlA6a%2FazM1llVArdmFGqTGVVxlLe7w81PYinFlp94iZ3R2BFUJ14Mr9XE6wUs0aGuxUucWxAtePaAUtJLUt2QGn51M7zE0zDUbV%2BAE3nNGiU6QoQuVJXHQb61qT8Rjsvgyo3HJf%2BCmh0Aq9fPHT7vDKqX01aP2vw%2F%2FxTSWC4M5Vw1m%2BzTPAsp1mPEE3hVjIQoRoOuuiWnAgVIDMcGSReXqL8QZLmi4hmzw0JfArHJc5AVbAl8SD1w%3D%3D&sz=w512);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item1 {
+    font-size: 120%;
+    font-family: 'Dangrek', cursive;
+    color: white;
+}
+
+.nav-item2 {
+    font-size: 120%;
+    font-family: 'Dangrek', cursive;
+    color: white;
+}
+
+.nav-item3 {
+    font-size: 120%;
+    font-family: 'Dangrek', cursive;
+    color: rgb(255, 255, 255);
+
+}
+
+.nav-item4 {
+    font-size: 120%;
+    font-family: 'Dangrek', cursive;
+    color: white;
+}
+
+.container {
+    display: flex;
+    position: relative;
+}
+
+.quadrado {
+    position: absolute;
+}
+
+.rounded-square {
+    width: 1166px;
+    height: 1166px;
+    background-color: #1A1E1F;
+    border-radius: 25px;
+    margin-top: 100px;
+    padding: 20px;
+
+}
+
+.sobre {
+    color: white;
+    font-family: 'Inter';
+    text-align: center;
+
+}
+
+.texto1 {
+    color: white;
+    font-family: 'inter';
+    text-align: center;
+}
+
+.navbar-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+
+}
+
+.sintomas {
+    color: white;
+    font-family: 'inter';
+    text-align: left;
+}
+
+.texto2 {
+    color: white;
+    font-family: 'inter';
+    text-align: left;
+}
+
+.botao-amarelo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 500px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.botao-amarelo:hover {
+    transform: translateY(-5px);
+}
+
+.texto3 {
+    text-align: center;
+    color: white;
+    font-family: 'inter';
+}
+
+.rounded-square2 {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+.form {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Dangrek';
+}
+
+form input,
+form select {
+    width: 250px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #ffffff;
+    /* Cor de fundo das caixas de informação */
+    color: #000000;
+    /* Cor do texto nas caixas de informação */
+}
+
+form select {
+    padding: 10px;
+}
+
+form button {
+    background-color: #007bff;
+    /* Cor de fundo do botão */
+    color: #fff;
+    /* Cor do texto no botão */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+    /* Cor de fundo do botão ao passar o mouse */
+}
+
+.cadastro {
+    color: #ffffff;
+}
+
+.Form {
+    text-align: left;
+}
+
+.submit {
+    background-color: #0056b3;
+    border-radius: 10px;
+}
+
+.itens-cadastro {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+#email {
+    width: 369px;
+    height: 36px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+#telefone{
+    width: 279px;
+    height: 36px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.item-centro {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imagens{
+    border-radius: 76px;
+    background: url(), lightgray 50% / cover no-repeat;
+    padding: 10%;
+
+}
